@@ -1,4 +1,4 @@
-from duck import ModelDuck, MallardDuck
+from chapter1.duck import ModelDuck, MallardDuck
 
 if __name__ == '__main__':
     model_duck = ModelDuck()
