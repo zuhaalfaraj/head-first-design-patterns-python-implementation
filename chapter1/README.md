@@ -15,14 +15,14 @@ Defines a family of algorithms, encapsulates each one, and makes them interchang
 ## Example: SimUDuck app
 ### Mistaken Designs: 
   - Mistaken Design 1:
- <img src="wrong1.png" width="500">
+ <img src="imgs/wrong1.png" width="500">
  
   **Why it is wrong?**
 
 This design failed to notice that not all subclasses of Duck should fly. When we added new behavior to the Duck superclass, we were also adding behavior that was not appropriate for some Duck subclasses!
 
   - Mistaken Design 2:
-   <img src="wrong2.png" width="500">
+   <img src="imgs/wrong2.png" width="500">
    
   **Why it is wrong?**
   
@@ -33,7 +33,7 @@ This design failed to notice that not all subclasses of Duck should fly. When we
 ### Correct Design (Using Stratigy Pattern)
 
   - Diagram : 
-  <img src="design.png" width="700">
+  <img src="imgs/design.png" width="700">
 
  **Why it is correct?**
  
