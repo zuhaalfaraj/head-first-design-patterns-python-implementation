@@ -1,5 +1,5 @@
 # The Observer Pattern 
-## Defination
+## Definition
 - defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 - It is mainly used for implementing distributed event handling systems, in "event driven" software. 
 - This pattern perfectly suits any process where data arrives from some input that is not available to the CPU at startup, but instead arrives "at random" (HTTP requests, GPIO data, user input from keyboard/mouse/..., distributed databases and blockchains, ...).
