@@ -28,7 +28,7 @@ One might say, why do we need all these classes? Can’t we just use instance va
 
 <img src="images/mistake2.png" width="700">
 
-***Why?***
+***Why?***  
 - Price changes for condiments will force us to alter existing code.
 - New condiments will force us to add new methods and alter the cost method in the superclass.
 - We may have new beverages. For some of these beverages (iced tea?), the condiments may not be appropriate, yet the Tea subclass will still inherit methods like hasWhip().
@@ -38,3 +38,7 @@ One might say, why do we need all these classes? Can’t we just use instance va
 ### Correct Design (Using Decorator Pattern)
 
 <img src="images/correct.png" width="700">
+
+***Why the problem was solved?***
+- When we want to add a new topping we will extend the classes, but we will not update or modify anything.
+- We can wrap beverages with as much decorators as we wish.
