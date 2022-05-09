@@ -1,4 +1,4 @@
-from beverage import BeveragIeAbstract
+from Models.beverage import BeveragIeAbstract
 from abc import abstractmethod
 
 class CondimentDecorator(BeveragIeAbstract):

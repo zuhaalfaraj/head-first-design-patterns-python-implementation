@@ -1,5 +1,5 @@
-from beverage import BeveragIeAbstract
-from decorator import CondimentDecorator
+from Models.beverage import BeveragIeAbstract
+from Models.decorator import CondimentDecorator
 
 
 #### BEVERAGES ####

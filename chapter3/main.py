@@ -1,6 +1,4 @@
 from menu import *
-from extras import *
-
 
 beverage1 = Espresso()
 beverage2 = HouseBlend()
